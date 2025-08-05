@@ -1472,7 +1472,7 @@ async function resetIdleTimer() {
 			checkBtn.disabled = true;
 			restartBtn.style.display = 'block';
 		}
-	}, 10000);
+	}, 20000);
 }
 
 
@@ -1551,5 +1551,6 @@ restartBtn.addEventListener('click', function () {
 	messageBlock.textContent = ''
 
 })
+
 
 
